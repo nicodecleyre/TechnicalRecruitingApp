@@ -1,0 +1,24 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "TechnicalRecruiting",
+    "environment": "spo",
+    "skipFeatureDeployment": "true",
+    "isDomainIsolated": "false",
+    "componentType": "webpart",
+    "template": "react",
+    "componentName": "configuration",
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "16.17.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.1",
+    "libraryName": "technical-recruiting",
+    "libraryId": "1c9c3717-82f4-4571-9868-fbbf20b90f7e",
+    "packageManager": "npm",
+    "solutionShortDescription": "TechnicalRecruiting description"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "questions-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/questions/QuestionsWebPart.js",
+          "manifest": "./src/webparts/questions/QuestionsWebPart.manifest.json"
+        }
+      ]
+    },
+    "interviews-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/interviews/InterviewsWebPart.js",
+          "manifest": "./src/webparts/interviews/InterviewsWebPart.manifest.json"
+        }
+      ]
+    },
+    "configuration-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/configuration/ConfigurationWebPart.js",
+          "manifest": "./src/webparts/configuration/ConfigurationWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ControlStrings": "../node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "QuestionsWebPartStrings": "lib/webparts/questions/loc/{locale}.js",
+    "InterviewsWebPartStrings": "lib/webparts/interviews/loc/{locale}.js",
+    "ConfigurationWebPartStrings": "lib/webparts/configuration/loc/{locale}.js"
+  }
+}

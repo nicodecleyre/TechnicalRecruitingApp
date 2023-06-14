@@ -1,0 +1,171 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.interviews {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.interview {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+  background: #ffffff;
+  text-decoration: none;
+  color: "[theme:bodyText, default: #323130]";
+  border-bottom: 1px solid #e6e8ea;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,1);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.interview:first-of-type {
+  border-radius: 7px 7px 0 0;
+}
+
+.interview:last-of-type {
+  border-radius: 0 0 7px 7px;
+}
+
+.interview:hover {
+  background: "[theme: themeSecondary, default: #c4efef]";
+}
+
+.interviewItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.interviewListItem {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.interviewInfo {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  cursor: pointer;
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.image {
+  width: 20px;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.close {
+  float: right;
+}
+
+.next {
+  float: right;
+}
+
+.previous {
+  float: left;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.infoSection {
+  background-color: rgb(255 255 255 / 50%);
+    border: 1px solid grey;
+    border-radius: 25px;
+    margin: 35px 10px 20px 10px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.next:hover {
+  color: "[theme: themeSecondary, default: #c4efef]";
+}
+
+.statusImage {
+  width: 30px;
+  padding-left: 15px;
+}
+
+.rating {
+  padding: 5px;
+  color: "[theme: themeSecondary, default: #c4efef]";
+  cursor: pointer;
+}
+
+.overallRating {
+  padding: 5px;
+  color: "[theme: themeSecondary, default: #c4efef]";
+  cursor: not-allowed;
+}
+
+.questionHeader {
+  float: right
+}
+
+.questionItem {
+  background-color: rgb(255 255 255 / 50%);
+  border: 1px solid grey;
+  border-radius: 25px;
+  margin: 35px 10px 20px 10px;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.questionFooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.questionAnswer {
+  margin-top: 10px;
+}
+
+.saveButton {
+  float: left;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}

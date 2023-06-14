@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "technical-recruiting-client-side-solution",
+    "id": "1c9c3717-82f4-4571-9868-fbbf20b90f7e",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "TechnicalRecruiting description"
+      },
+      "longDescription": {
+        "default": "TechnicalRecruiting description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "technical-recruiting Feature",
+        "description": "The feature that activates elements of the technical-recruiting solution.",
+        "id": "ac790790-0f50-4902-8407-81c54612ee73",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/technical-recruiting.sppkg"
+  }
+}

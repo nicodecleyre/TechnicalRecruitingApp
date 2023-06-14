@@ -1,0 +1,40 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.configuration {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.loadingImage {
+  width: 30px;
+  padding-left: 15px;
+}
+
+.successImage {
+  width: 30px;
+  padding-left: 15px;
+}
+
+.button {
+  margin-top: 20px;
+  float: left;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}
